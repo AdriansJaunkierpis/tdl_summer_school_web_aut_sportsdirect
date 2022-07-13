@@ -14,11 +14,14 @@ class SportsDirectPage extends BasePage {
   static get selectOption(){
     return cy.get('.slideName');
   }
-  static get (){
-    return cy.get('');
+  static get Checkbox(){
+    return cy.get('.FilterName');
   }
-  static get (){
-    return cy.get('');
+  static get productCount(){
+    return cy.get('.productimage');
+  }
+  static get productName(){
+    return cy.get('#lblProductName');
   }
 }
 
