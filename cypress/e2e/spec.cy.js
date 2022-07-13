@@ -4,6 +4,9 @@ describe('Sportsdirect test', () => {
   beforeEach(() => {
     SportsDirectPage.visit();
   });
-  it('passes', () => {
+  it('test', () => {
+SportsDirectPage.clickBrands.click();
+SportsDirectPage.selectBrand.click();
+SportsDirectPage.selectOption.contains("Trainers").click();
   })
 })
